@@ -53,14 +53,14 @@ Pada Package main disini ada :
   * Saya juga menggunakan constructor, getter, setter, serta validasi di setJumlahTanggungan agar nilainya tidak bisa minus (kalau kurang dari 0 bakal otomatis ke 0 lagi ke set), serta method tampilkanInfo() yang nantinya di-override oleh subclass.
 
 * **WargaLansia**
- * Penjelasan class: Class turunan (subclass) pertama dari class Warga yang khusus menampung data warga kategori lansia.
- * Pada class ini saya menggunakan atribut tambahan umur dan kondisiKesehatan.
- * Saya juga menggunakan super pada constructor untuk memanggil atribut induknya, terdapat validasi pada setUmur agar umur lansia minimal 60 tahun, serta menerapkan method overriding pada tampilkanInfo() untuk mencetak data lansia. Pada setUmur juga jika menginput umur dibawah 60, maka tidak dapat dan melakukan isi ulang umur yang sesuai kriteria.
+  * Penjelasan class: Class turunan (subclass) pertama dari class Warga yang khusus menampung data warga kategori lansia.
+  * Pada class ini saya menggunakan atribut tambahan umur dan kondisiKesehatan.
+  * Saya juga menggunakan super pada constructor untuk memanggil atribut induknya, terdapat validasi pada setUmur agar umur lansia minimal 60 tahun, serta menerapkan method overriding pada tampilkanInfo() untuk mencetak data lansia. Pada setUmur juga jika menginput umur dibawah 60, maka tidak dapat dan melakukan isi ulang umur yang sesuai kriteria.
 
 * **WargaDisabilitas**
- * Penjelasan class: Class turunan (subclass) kedua dari class Warga yang khusus menampung data warga kategori penyandang disabilitas.
- * Pada class ini saya menggunakan atribut tambahan jenisDisabilitas dan kebutuhanAlatBantu.
- * Saya juga menggunakan super pada constructor serta menerapkan method overriding pada tampilkanInfo() untuk menampilkan informasi spesifik kebutuhan alat bantu dan jenis disabilitasnya.  
+  * Penjelasan class: Class turunan (subclass) kedua dari class Warga yang khusus menampung data warga kategori penyandang disabilitas.
+  * Pada class ini saya menggunakan atribut tambahan jenisDisabilitas dan kebutuhanAlatBantu.
+  * Saya juga menggunakan super pada constructor serta menerapkan method overriding pada tampilkanInfo() untuk menampilkan informasi spesifik kebutuhan alat bantu dan jenis disabilitasnya.  
 
 * **KriteriaKemiskinan**
   * Penjelasan class: Pada class ini saya gunakan untuk menampung atau syarat status ekonomi dan kelayakan warga.
