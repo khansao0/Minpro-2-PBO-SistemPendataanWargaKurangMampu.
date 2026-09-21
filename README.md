@@ -48,9 +48,9 @@ Pada Package main disini ada :
 ## 3. Penjelasan tiap Class 
 
 * **Warga**
- * Penjelasan class: Pada class ini saya pakai untuk menyimpan informasi data diri warga.
- * Pada class ini saya menggunakan atribut ber-access modifier private (encapsulation) yaitu nik, nama, alamat, jumlahTanggungan, serta objek kriteria dari class KriteriaKemiskinan.
- * Saya juga menggunakan constructor, getter, setter, serta validasi di setJumlahTanggungan agar nilainya tidak bisa minus (kalau kurang dari 0 bakal otomatis ke 0 lagi ke set), serta method tampilkanInfo() yang nantinya di-override oleh subclass.
+  * Penjelasan class: Pada class ini saya pakai untuk menyimpan informasi data diri warga.
+  * Pada class ini saya menggunakan atribut ber-access modifier private (encapsulation) yaitu nik, nama, alamat, jumlahTanggungan, serta objek kriteria dari class KriteriaKemiskinan.
+  * Saya juga menggunakan constructor, getter, setter, serta validasi di setJumlahTanggungan agar nilainya tidak bisa minus (kalau kurang dari 0 bakal otomatis ke 0 lagi ke set), serta method tampilkanInfo() yang nantinya di-override oleh subclass.
 
 * **WargaLansia**
  * Penjelasan class: Class turunan (subclass) pertama dari class Warga yang khusus menampung data warga kategori lansia.
