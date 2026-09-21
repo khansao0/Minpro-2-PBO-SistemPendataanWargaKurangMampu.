@@ -102,7 +102,7 @@ Pada saat program dijalankan, nanti nya akan menampilkan menu utama di terminal 
 <img width="500" alt="image" src="https://github.com/user-attachments/assets/531efc68-2e02-4367-a393-c8fef6045e25" />  
 
 1. **Tambah Data Warga (Create):**
-Kita bisa memasukkan NIK, nama, alamat, sama jumlah tanggungan. Nanti datanya akan tersimpan otomatis ke sistem. Pada menu ini dilengkapi fungsi validasi input (inputAngka & inputDesimal) jika pengguna salah memasukkan tipe data (seperti menginput teks pada pendapatan/bulan). Di sini juga ada validasi input, misalnya saat salah menginputkan pendapatan pakai tulisan "Rp", sistem bakal nolak dan menampilkan tulisan "Input harus berupa angka!" lalu meminta input ulang sampai benar. Setelah berhasil, nanti ada output "Yeyy Data Berhasil ditambahkan <br>
+Kita bisa memasukkan NIK, nama, alamat, sama jumlah tanggungan. Nanti datanya akan tersimpan otomatis ke sistem. Pada menu ini dilengkapi fungsi validasi input (inputAngka & inputDesimal) jika pengguna salah memasukkan tipe data (seperti menginput teks pada pendapatan/bulan). Di sini juga ada validasi input, misalnya saat salah menginputkan pendapatan pakai tulisan "Rp", sistem bakal nolak dan menampilkan tulisan "Input harus berupa angka!" lalu meminta input ulang sampai benar. Setelah berhasil, nanti ada output "Yeyy Data Berhasil ditambahkan!" <br>
 
 <img width="500" alt="WhatsApp Image 2026-09-21 at 9 00 32 PM" src="https://github.com/user-attachments/assets/58c67b1c-d7e4-4980-b8b2-bf67e574f41e" /> <br>
 
