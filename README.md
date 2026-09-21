@@ -80,17 +80,17 @@ Pada Package main disini ada :
 
 ## 4. Penjelasan Penerapan Encapsulation & Inheritance  
 * **Encapsulation**
-* Pada program ini, semua atribut pada setiap class (Warga, WargaLansia, WargaDisabilitas, KriteriaKemiskinan, DataPusatWarga) menggunakan access modifier private, agar variabel tidak bisa diakses secara langsung dari luar class.
-* Untuk mengakses dan mengubah nilainya, saya menggunakan method getter dan setter.
-* Terdapat validasi data pada setter, seperti :
-* setJumlahTanggungan: Jika input minus, otomatis di set ke 0.
-* setPendapatanBulanan: Mengembalikan pesan error dan mengatur nilai ke 0 jika input negatif.
-* setUmur pada WargaLansia: Memastikan umur lansia minimal 60 tahun (jika kurang dari 60, otomatis diset ke 60).
+  * Pada program ini, semua atribut pada setiap class (Warga, WargaLansia, WargaDisabilitas, KriteriaKemiskinan, DataPusatWarga) menggunakan access modifier private, agar variabel tidak bisa diakses secara langsung dari luar class.
+  * Untuk mengakses dan mengubah nilainya, saya menggunakan method getter dan setter.
+  * Terdapat validasi data pada setter, seperti :
+  * setJumlahTanggungan: Jika input minus, otomatis di set ke 0.
+  * setPendapatanBulanan: Mengembalikan pesan error dan mengatur nilai ke 0 jika input negatif.
+  * setUmur pada WargaLansia: Memastikan umur lansia minimal 60 tahun (jika kurang dari 60, otomatis diset ke 60).
 
 * **Inheritance**
-* Class Warga bertindak sebagai Superclass yang menyimpan data umum (NIK, Nama, Alamat, Tanggungan, Kriteria).
-* Class WargaLansia dan WargaDisabilitas bertindak sebagai Subclass yang mewarisi (extends) class Warga.
-* Pada Inheritance ini saya menggunakan super pada constructor subclass untuk meneruskan data dasar ke superclass, dan super.tampilkanInfo() untuk memanggil cetakan informasi dari superclass.
+  * Class Warga bertindak sebagai Superclass yang menyimpan data umum (NIK, Nama, Alamat, Tanggungan, Kriteria).
+  * Class WargaLansia dan WargaDisabilitas bertindak sebagai Subclass yang mewarisi (extends) class Warga.
+  * Pada Inheritance ini saya menggunakan super pada constructor subclass untuk meneruskan data dasar ke superclass, dan super.tampilkanInfo() untuk memanggil cetakan informasi dari superclass.
 
 ---
 
@@ -102,7 +102,7 @@ Pada saat program dijalankan, nanti nya akan menampilkan menu utama di terminal 
 
 1. **Tambah Data Warga (Create):**
 Kita bisa memasukkan NIK, nama, alamat, sama jumlah tanggungan. Nanti datanya akan tersimpan otomatis ke sistem. Pada menu ini dilengkapi fungsi validasi input (inputAngka & inputDesimal) jika pengguna salah memasukkan tipe data (seperti menginput teks pada pendapatan/bulan). Di sini juga ada validasi input, misalnya saat salah menginputkan pendapatan pakai tulisan "Rp", sistem bakal nolak dan menampilkan tulisan "Input harus berupa angka!" lalu meminta input ulang sampai benar. Setelah berhasil, nanti ada output "Yeyy Data Berhasil ditambahkan
-<img width="500" alt="WhatsApp Image 2026-09-21 at 9 00 32 PM" src="https://github.com/user-attachments/assets/58c67b1c-d7e4-4980-b8b2-bf67e574f41e" />
+<img width="500" alt="WhatsApp Image 2026-09-21 at 9 00 32 PM" src="https://github.com/user-attachments/assets/58c67b1c-d7e4-4980-b8b2-bf67e574f41e" /> <br>
 
 tampilan saat sudah ditambah
 <img width="500" alt="WhatsApp Image 2026-09-21 at 9 01 18 PM" src="https://github.com/user-attachments/assets/a910d990-7c5d-4fe5-88d5-b1247b98e92e" />
