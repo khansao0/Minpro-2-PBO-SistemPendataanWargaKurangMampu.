@@ -128,6 +128,19 @@ tampilan pas sudah dihapus
 menutup program, nanti ada output "Terima kasih telah menggunakan program ini" 
 <img width="547" height="223" alt="WhatsApp Image 2026-09-21 at 9 05 25 PM" src="https://github.com/user-attachments/assets/52b41631-3f68-4bd8-9d39-b878940ee0f6" />
 
+---  
+
+## 6. Penerapan Nilai Tambah  
+1. Polymorphism menggunakan method overriding, Saya terapkan pada method tampilkanInfo() di subclass WargaLansia dan WargaDisabilitas. Method ini meng override method tampilkanInfo() milik superclass Warga agar bisa mencetak data spesifik tiap kategori (seperti umur dan kondisi kesehatan untuk lansia, serta jenis disabilitas dan kebutuhan alat bantu untuk disabilitas).  
+
+2. konsep Inheritance (mewariskan atribut umum dari class Warga ke class WargaLansia dan WargaDisabilitas) dan Polymorphism (meng-override method tampilkanInfo() agar tampilan tiap kategori warga bisa menyesuaikan secara dinamis).
+ 
+3. Selain itu, seluruh inputan angka dan desimal di menu utama sudah dipasangi fungsi validasi khusus (inputAngka dan inputDesimal) agar saat pengguna tidak sengaja memasukkan teks atau huruf, program tidak langsung crash atau error.
+
+4. Validasi logika bisnis pada setter (seperti umur lansia minimal 60 tahun di setUmur(), serta tanggungan dan pendapatan yang tidak boleh bernilai negatif).
+
+5. Dummy Data Awal, menggunakan pemanggilan method isiDataAwal() pada constructor DataPusatWarga yang langsung mengisikan data WargaLansia dan WargaDisabilitas ke dalam ArrayList saat program pertama kali dijalankan.
+
 
 
 
