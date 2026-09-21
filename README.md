@@ -97,7 +97,8 @@ Pada Package main disini ada :
 ## 5. Penjelasan Alur Program dan Dokumentasi Output  
 Saat program dijalankan, sistem otomatis memanggil method isiDataAwal() di DataPusatWarga untuk mengisikan dummy data awal ke ArrayList, sehingga data warga langsung tampil saat menu Read pertama kali dipilih.  
 
-Pada saat program dijalankan, nanti nya akan menampilkan menu utama di terminal dengan 5 pilihan: <br>
+Pada saat program dijalankan, nanti nya akan menampilkan menu utama di terminal dengan 5 pilihan: <br>  
+
 <img width="500" alt="image" src="https://github.com/user-attachments/assets/531efc68-2e02-4367-a393-c8fef6045e25" />  
 
 1. **Tambah Data Warga (Create):**
@@ -108,24 +109,29 @@ tampilan saat sudah ditambah <br>
 <img width="500" alt="WhatsApp Image 2026-09-21 at 9 01 18 PM" src="https://github.com/user-attachments/assets/a910d990-7c5d-4fe5-88d5-b1247b98e92e" />
 
 
-3. **Tampilkan Data Warga (Read):**
+2. **Tampilkan Data Warga (Read):**
 Menampilkan daftar semua warga yang ada di dalam ArrayList lengkap dengan kategori dan kriteria kemiskinannya. Dipakai buat mengecek dan menampilkan semua daftar warga yang sudah tersimpan di sistem. Di sini langsung tampil data warga lansia (Mbah Maimunah) dan warga disabilitas (Rahmat Hidayat) hasil dari dummy data. <br>
+
 <img width="500" alt="WhatsApp Image 2026-09-21 at 8 55 44 PM" src="https://github.com/user-attachments/assets/c4d071e8-e9e3-4d61-8779-985737f06755" />
 
 3. **Ubah Data Warga (Update):**
 Pengguna memasukkan nomor data warga yang ingin diubah. Buat menghapus data warga dari daftar kalau memang sudah tidak diperlukan lagi, cukup ketik nomor data yang mau dihapus (contoh memilih nomor data 3).
 Nanti ada pemberitahuan "Data warga berhasil dihapus!" <br>
+
 <img width="500" alt="WhatsApp Image 2026-09-21 at 9 03 18 PM" src="https://github.com/user-attachments/assets/ee2d9bfb-c7bf-4cfb-8282-f6b57f04796a" />
 
-4. **Hapus Data Warga (Delete):**
+5. **Hapus Data Warga (Delete):**
 Buat menghapus data warga dari list kalau memang sudah tidak diperlukan lagi, cukup ketik nomor data yang mau dihapus. <br>
+
 <img width="500" alt="WhatsApp Image 2026-09-21 at 9 04 10 PM" src="https://github.com/user-attachments/assets/f42e8f0a-2382-49c2-bb44-b111031c0b27" />
 
-tampilan pas sudah dihapus <br>
+tampilan pas sudah dihapus <br>  
+
 <img width="500" alt="WhatsApp Image 2026-09-21 at 9 04 54 PM" src="https://github.com/user-attachments/assets/e8e422d0-915d-4324-ac8b-adbd00afeb68" />  
 
 5. **Keluar:**
 menutup program, nanti ada output "Terima kasih telah menggunakan program ini" <br>
+
 <img width="500" alt="WhatsApp Image 2026-09-21 at 9 05 25 PM" src="https://github.com/user-attachments/assets/52b41631-3f68-4bd8-9d39-b878940ee0f6" />
 
 ---  
